@@ -14,7 +14,8 @@ As the docker-compose tool is not inbuilt in docker, install the ### docker-comp
 copy the file from docker-compose.yaml and paste on sublime text and paste it in the docker-compose.yaml file.
 save the file.
 To build docker-compose file use 
+## sudo usermod -aG docker $USER
 ## sudo docker-compose up -d
 After sucessful execution go to browser and paste the ip address of instance and in yaml file we have mentioned port number 8000 so you need to use:
 ## master-ip-address:8000
-You will get the wordpress installation page. thus, your deployment of wordpress using dockercompose file is done sucessfully. 
+You will get the wordpress installation page. thus, your deployment of wordpress using dockercompose file is done sucessfully.
